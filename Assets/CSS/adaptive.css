@@ -1,0 +1,182 @@
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1500px) {
+    .conteiner {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .share__links {
+        display: flex;
+        justify-content: left;
+        padding-bottom: 0px;
+      }
+}
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1200px) {
+    .conteiner {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .grid__item__image {
+        width: 280px;
+        height: 250px;
+        object-fit: cover;
+        transition: all 0.4s ease;
+    }
+    .project_image_1 {
+        height: 400px;
+        width: 550px;
+        object-fit: cover;
+    }
+    .share__links {
+        display: flex;
+        justify-content: left;
+        padding-bottom: 0px;
+    }
+    .grid__item__title > span {
+        display: block;
+        transform: translateY(40px);
+        transition: transform 0.4s ease;
+    }
+}
+/*Medium Devices, Desctops */
+@media only screen and (max-width: 992px) {
+    .conteiner {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .grid__item__image {
+        width: 236px;
+        height: 250px;
+        object-fit: cover;
+        transition: all 0.4s ease;
+    }
+    .project_image_1 {
+        height: 550px;
+        width: 748px;
+        object-fit: cover;
+    }
+    .grid__item__title > span {
+        display: block;
+        transform: translateY(40px);
+        transition: transform 0.4s ease;
+    }
+    .grid__item__project {
+        margin: 10px;
+        display: inline-flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+    }
+    .description {
+        margin-left: 0px;
+        justify-content: left;
+        font-weight: 500;
+    }
+    .share__links {
+        display: flex;
+        justify-content: left;
+        padding-bottom: 50px;
+    }
+}
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+    .conteiner {
+        width: 100%;
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .header__inner {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .gallary{
+        padding: 330px 0px 0px 0px;
+    }
+    .grid__item__image {
+        width: 470px;
+        height: 300px;
+        object-fit: cover;
+        transition: all 0.4s ease;
+    }
+    .project_image_1 {
+        height: 300px;
+        width: 470px;
+        object-fit: cover;
+    }
+    .share__links {
+        display: flex;
+        justify-content: left;
+        padding-bottom: 30px;
+    }
+    .contact__text {
+        padding: 330px 0px 0px 0px;
+    }
+    .description__contact__text {
+        display: inline-flex;
+        flex-direction: column;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+}
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+    .conteiner {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .header__inner {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding: 0 10px;
+    }
+    .grid__item__image {
+        width: 320px;
+        height: 230px;
+        object-fit: cover;
+        transition: all 0.4s ease;
+    }
+    .project_image_1 {
+        height: 230px;
+        width: 320px;
+        object-fit: cover;
+    }
+    .logo_image {
+        border-radius: 4%;
+        margin-top: 50px;
+        height: 100px;
+        width: 100px;
+    }
+    .title__text {
+        font-size: 25px;
+        margin-left: 15px;
+        margin-top: 50px;
+        line-height: 0.8;
+    }
+      
+    .title__text span {
+        font-size: 15px;
+        color: #f9c22d;
+    }
+    .nav{
+        font-size: 23px;
+        margin-top: 40px;
+    }
+    .gallary{
+        padding: 245px 0px 0px 0px;
+    }
+    .contact__text {
+        padding: 260px 0px 0px 0px;
+    }
+}
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px) {
+    /**/
+}
